@@ -189,8 +189,7 @@ h1 .back-color {
 }
 
 .service-container-2 {
-  background: url("/Car Repair Shop/Image/set.jpg") no-repeat center
-    center/cover;
+  background: url("/Image/set.jpg") no-repeat center center/cover;
   height: 700px;
   width: 100%;
   position: relative;
