@@ -60,6 +60,7 @@ a:hover {
 
 .header {
   position: relative;
+  background-color: #282828;
 }
 
 .header .image img {
@@ -141,7 +142,7 @@ main {
   width: 150px;
   border-radius: 30px;
   margin-top: 30px;
-  font-size: 14px;
+  font-size: 20px;
   border: none;
 }
 
@@ -161,5 +162,71 @@ main {
 button:hover {
   background-color: var(--secondary-color);
   font-weight: bolder;
-  font-size: 16px;
+  font-size: 20px;
+}
+
+.service-container-1 {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  justify-content: center;
+  background: #d1d1d1;
+}
+
+.service-container-1 .service-car {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 400px;
+  padding: 25px;
+  margin: 5px;
+}
+
+.service-container-1 .service-car button {
+  padding: 20px 0 30px 20px;
+  text-align: left;
+  border: none;
+  background-color: #b2b2b2;
+  font-size: large;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.service-car button:hover {
+  background-color: var(--primary-color);
+}
+
+.service-container-1 .service-image-text img {
+  width: 900px;
+  height: 500px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.service-container-1 .service-image-text .text {
+  padding: 10px;
+  margin: 10px 0 0 10px;
+}
+
+.service-container-1 .service-image-text .text .back-color-1 {
+  background-color: var(--primary-color);
+  font-style: italic;
+  color: var(--defualt-text-color);
+  padding: 0 6px 1px 5px;
+  transform: skew(-14deg);
+  display: inline-block;
+  font-weight: 500;
+}
+
+.service-container-1 .service-image-text .text p {
+  padding-top: 20px;
+}
+
+.service-container-1 .service-image-text .text h1 {
+  font-size: 2.5rem;
+  line-height: 1.3;
+}
+
+.service-container-1 .service-image-text .text .p-container {
+  width: 500px;
 }
