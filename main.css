@@ -182,7 +182,6 @@ button:hover {
   margin-top: 50px;
   border-left: #ff7a59 5px solid;
   border-top: #ff7a59 5px solid;
-  /* background-color: #00bda5; */
 }
 
 .service-container-1 .service-car button {
@@ -240,4 +239,94 @@ button:hover {
 
 .service-container-1 .service-image-text .text .p-container {
   width: 500px;
+}
+
+.service-container-2 {
+  background: url("/Image/set.jpg") no-repeat center center/cover;
+  height: 700px;
+  width: 100%;
+  position: relative;
+}
+
+.service-container-2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.service-container-2 .text-container-2 {
+  position: relative;
+  padding: 60px;
+  text-align: center;
+  color: var(--defualt-text-color);
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+.service-container-2 .text-container-2 h1 {
+  font-size: 3rem;
+  margin-bottom: 35px;
+}
+
+.service-container-2 .icon-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  color: var(--orginal-pr-color);
+  justify-content: space-evenly;
+}
+
+.service-container-2 .icon-container .fas {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 20px;
+  padding-top: 30px;
+  line-height: 2.5rem;
+}
+
+.fas:hover {
+  color: var(--primary-color);
+}
+
+.service-container-2 .icon-container h5 {
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.btn-2 button {
+  padding: 15px;
+  width: 150px;
+  border-radius: 30px;
+  margin: 30px 20px 20px 20px;
+  font-size: 18px;
+}
+
+.btn-2 .or {
+  color: var(--orginal-pr-color);
+  font-size: 1.5rem;
+}
+
+.btn {
+  background-color: var(--secondary-color);
+  border: none;
+}
+
+.btn:hover {
+  background-color: aliceblue;
+}
+
+.btn-1 {
+  background-color: aliceblue;
 }
